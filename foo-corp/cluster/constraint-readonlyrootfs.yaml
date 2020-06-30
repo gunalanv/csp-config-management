@@ -8,6 +8,4 @@ spec:
       - apiGroups: [""]
         kinds: ["Pod"]
     namespaces:
-      - "production"         
-#    excludedNamespaces:
-#      - "audit"    
+      - "production"  
