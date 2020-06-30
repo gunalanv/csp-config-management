@@ -11,4 +11,4 @@ spec:
       - "demo"   
   parameters:
     probes: ["readinessProbe", "livenessProbe"]
-    probeTypes: ["tcpSocket", "httpGet"]
+    probeTypes: ["tcpSocket", "httpGet", "exec"]
