@@ -7,5 +7,7 @@ spec:
     kinds:
       - apiGroups: [""]
         kinds: ["Pod"]
-    excludedNamespaces:
-      - "audit"    
+    namespaces:
+      - "production"         
+#    excludedNamespaces:
+#      - "audit"    
