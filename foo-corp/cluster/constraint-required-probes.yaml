@@ -8,7 +8,7 @@ spec:
       - apiGroups: [""]
         kinds: ["Pod"]
     namespaces:
-      - "production"    
+    - "production"    
   parameters:
     probes: ["readinessProbe", "livenessProbe"]
     probeTypes: ["tcpSocket", "httpGet"]
