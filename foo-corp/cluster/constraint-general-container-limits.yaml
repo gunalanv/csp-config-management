@@ -11,4 +11,4 @@ spec:
       - "demo"        
   parameters:
     cpu: "200m"
-    memory: "1Gi"
+    memory: "2Gi"
