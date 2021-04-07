@@ -10,7 +10,7 @@ spec:
     namespaces:
       - "demo"          
   parameters:
-    message: "All Pods must have an app and component label"
+    message: "All Pods must have an app and cost center label"
     labels:
       - key: app
-      - key: component
+      - key: cc
