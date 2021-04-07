@@ -7,6 +7,8 @@ spec:
     kinds:
       - apiGroups: [""]
         kinds: ["Pod"]
+    namespaces:
+      - "probes"    
   parameters:
     probes: ["readinessProbe", "livenessProbe"]
     probeTypes: ["tcpSocket", "httpGet", "exec"]
