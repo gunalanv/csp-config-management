@@ -1,6 +1,7 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
 kind: K8sHttpsOnly
 metadata:
+  #Ensures - kubernetes.io/ingress.allow-http=false
   name: network-allow-https-only
 spec:
   match:
